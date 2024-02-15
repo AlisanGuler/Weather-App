@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  color: #fff;
+}
+
+body {
+  background: url(/images/2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form .inputText {
+  padding: 10px;
+  border-radius: 15px;
+  width: 30%;
+  color: #fff;
+  font-size: 1.2rem;
+  background: rgba(128, 128, 128, 0.342);
+}
+@media (max-width: 870px) {
+  .form .inputText {
+    width: 60%;
+  }
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.btnDiv .btn {
+  color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 1rem;
+  background: rgba(128, 128, 128, 0.39);
+  width: 20%;
+}
+@media (max-width: 870px) {
+  .btnDiv .btn {
+    width: 50%;
+  }
+}
+.btnDiv .btn:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all ease 0.3s;
+  opacity: 80%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.info i {
+  color: wheat;
+}
+.info p {
+  font-size: 20px;
+}
+.info #sicaklik {
+  font-size: 5rem;
+}
+.info .weather-info {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.info .his #hissedilen {
+  font-size: 1rem;
+}/*# sourceMappingURL=style.css.map */
